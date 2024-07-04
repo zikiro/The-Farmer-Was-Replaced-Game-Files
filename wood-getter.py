@@ -21,6 +21,7 @@ def treeOrBush():
 
     if can_harvest():
         harvest()
+        use_item(Items.Water_Tank)
     else:
         return
     if isTreePos:
